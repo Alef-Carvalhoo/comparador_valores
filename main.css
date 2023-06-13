@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Bungee', cursive;
+    box-sizing: border-box;
+    font-weight: normal;
+
+}
+
+body {
+    background: linear-gradient(-45deg ,#4e2002, #db8317, #e6a24f, #ffc14e, #f7a036 ,orange, #ffca70, rgb(250, 193, 89), #c7720a) ;
+    background-attachment: fixed;
+    background-size: 200% 200%;
+    animation: colors 10s ease infinite;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+input {
+    font-size: 18px;
+    text-align: center;
+    display: inline-flex;
+    outline-style: auto;
+    padding: 30px;
+    margin-left: 75px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 35%;
+    border: solid;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input:focus::-webkit-input-placeholder {
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    color: transparent;
+    margin: 0;
+}
+
+form {
+    background-color: white;
+    border: solid;
+    padding: 35px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-sizing: 16px 16px;
+    box-shadow: -7px -7px 17px 9px rgb(245, 248, 40), 5px 5px 15px 8px rgb(253, 173, 0);
+    height: 500px;
+}
+
+button {
+    font-size: 20px;
+    border: solid;
+    padding: 10px;
+    width: 70%;
+    margin-left: 115px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgb(253, 165, 32);
+    cursor: pointer;
+
+}
+
+form button:hover {
+    background-color: rgb(255, 189, 67);
+}
+
+.success-message {
+    background-color: #27ae60;
+    padding: 10px;
+    max-width: 50%;
+    margin-left: 200px;
+    text-align: center;
+    color:  #fff;  
+    display: none; 
+}
+
+.error-message {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    max-width: 50%;
+    margin-left: 200px;
+    text-align: center;
+    display: none;
+    border-radius: 8px;
+    border: solid;
+}
+
+.equal-message {
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    max-width: 50%;
+    margin-left: 200px;
+    text-align: center;
+    display: none;
+    border-radius: 8px;
+    border: solid;
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

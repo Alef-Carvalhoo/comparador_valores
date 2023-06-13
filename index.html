@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Valores</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador De Valores</h1>
+        <h2>EBAC</h2>
+            <form id="form-compara">
+                <input type="number" id="Campo-B" placeholder="Campo-B"  required />
+                <input type="number" id="Campo-A" placeholder="Campo-A"  required />
+                <button id="btn-compara" type="submit">Comparar</button>
+                <p class="error-message"> O Campo B não é maior que o campo A</p>
+                <p class="success-message"> O Campo B é maior que o Campo A</p>
+                <p class="equal-message"> Os valores Não podem ser iguais</p>
+            </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
